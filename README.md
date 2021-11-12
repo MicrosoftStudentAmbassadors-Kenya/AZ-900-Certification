@@ -8,10 +8,8 @@ This will be a documentation on blogs around Azure Fundamentals (AZ-900) Certifi
 
 | Blog Name         | Blog Objective            | Blog Link       | Author                                                                 |
 | ------------------------ | ----------------------- | ------------- | --------------------------------------------------------------------- |
-| Journey to Certification | A brief background on what the certification entails      | North America | Bethany J.                           
+| Journey to Certification | A brief background on what the certification entails      | [Blog Link]() | Bethany J.                           
 | Introduction to Cloud Computing | A gentle introduction to cloud computing focusing on Azure          | -      |                                                              
-             
-|                          |
 
 ## Contributing
 
