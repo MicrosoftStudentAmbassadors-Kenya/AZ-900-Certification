@@ -4,8 +4,6 @@ This will be a documentation on blogs around Azure Fundamentals (AZ-900) Certifi
 
 ## Content to be covered
 
-### Solutions by Week
-
 | Blog Name         | Blog Objective            | Blog Link       | Author                                                                 |
 | ------------------------ | ----------------------- | ------------- | --------------------------------------------------------------------- |
 | Journey to Certification | A brief background on what the certification entails      | [Blog Link]() | Bethany J.                           
