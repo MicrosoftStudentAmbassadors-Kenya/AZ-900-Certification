@@ -1,63 +1,75 @@
-Azure Active Directory (Azure AD) is Microsoft's cloud-based IAM service that allows for your organization members to sign in and access your Azure Cloud resources securely.
+Azure Active Directory (Azure AD) is Microsoft's cloud-based IAM service that allows for your organization members to sign in and access your Azure Cloud resources securely. 
 
-Here are the basic terms to get started within this article:
+**Here are the basic terms to get started within this article:**
+1.  ​Azure Role-Based Access - This is a service that provides controlled access to your 
+    resources.
+2. Active Directory (Windows Active Directory) - Is an Identity and access management 
+    (IAM) 
+    service that runs on the windows server, on-premises, and is managed by your 
+    organization.
+3. IAM(Identity and Access Management) - Are techniques and policies that Azure uses 
+    to protect access to cloud resources 
+    <h6>E.g  Azure Role-Based Access</h6>
+4. Azure AD Connect - Synchronizes user identities on-premise AD to Azure AD
+5. Authentication - This is the process of establishing the identity of a person or service. 
+    that wants to access a resource.
+6. Authorization - Establishes the level of access an authenticated person has. 
+7. Tenant - Represents an organization.
+8. Scope - Is a set of resources E.g management group.
 
-​Azure Role-Based Access - This is a service that provides controlled access to your resources.
-Active Directory (Windows Active Directory) - Is an Identity and access management (IAM) service that runs on the windows server, on-premises, and is managed by your organization.
-IAM(Identity and Access Management) - Are techniques and policies that Azure uses to protect access to cloud resources
-E.g Azure Role-Based Access
-Azure AD Connect - Synchronizes user identities on-premise AD to Azure AD
-Authentication - This is the process of establishing the identity of a person or service. that wants to access a resource.
-Authorization - Establishes the level of access an authenticated person has.
-Tenant - Represents an organization.
-Scope - Is a set of resources E.g management group.
-In order to access resources in an organization, the user is first authenticated before being authorized
-
-Who Uses Azure AD?
-IT administrators can use it to control access to their app and cloud resources.
-App Developers can use it to add Single Sign-On to their app.
-Online Service Subscribers tenants using Microsoft 365 and Azure are already using Azure AD
-Services Provided By Azure AD
-Single-Sign On
-SSO enables a user to sign in using one username and one password only once to access multiple applications.
+In order to access resources in an organization, the user is first **authenticated** before being **authorized**
+<h4> Who Uses Azure AD?</h4>
+**IT administrators** can use it to control access to their app and cloud resources.<br>
+**App Developers** can use it to add Single Sign-On to their app.<br>
+**Online Service Subscribers** tenants using Microsoft 365 and Azure are already using Azure AD<br>
+ 
+<h2>Services Provided By Azure AD</h2>
+ <h3> Single-Sign On</h3>
+SSO enables a user to sign in using one username and one password only once to access multiple applications.<br>
 In order to allow for a synchronized sign-in both on-premises and on the cloud the AAD Connect is used.
-Multi-factor Authentication
-This is where the user is prompted to enter an additional form of identification E.g A fingerprint scan. Multi-Factor Authentication elements are;
-Something the user knows
-Email and password
+<h3> Multi-factor Authentication</h3>
+This is where the user is prompted to enter an additional form of identification E.g A fingerprint scan.
+Multi-Factor Authentication elements are;
+ 
+- Something the user knows <br>
+    Email and password
 
-Something the user has
-A code sent to the user's phone
+- Something the user has<br>
+  A code sent to the user's phone
 
-Something the user is
-Fingerprint scan
+- Something the user is<br>
+   Fingerprint scan
 
 MFA prevents attacks from people with stolen passwords.
+<h3>Conditional Access</h3>
+This is an AAD tool that is used to allow or deny access to resources based on identity signals.
+The signals include;
+     
+- Who the user is
 
-Conditional Access
-This is an AAD tool that is used to allow or deny access to resources based on identity signals. The signals include;
-Who the user is
+- Where the user is
 
-Where the user is
-
-The device the user is requesting from
+- The device the user is requesting from
 
 Conditional Access is used when you want to:
 
-Require MFA to access an app.
-Require access to services only through approved client apps.
-Block access from untrusted sources.
-Role-Based Access
+1. Require MFA to access an app.
+2. Require access to services only through approved client apps.
+3. Block access from untrusted sources.
 
-It is applied to a scope and we have 3 roles:
+**Role-Based Access**
 
-Owner
+It is applied to a **scope** and we have 3 roles:
 
-Reader
+ 
+-   Owner
 
-Contributor
+- Reader
+
+- Contributor
 
 When to use RBAC:
+ 
+1. To allow one user to manage VMs and another to manage virtual networks
+2. To allow an app to access all resources in a resource group
 
-To allow one user to manage VMs and another to manage virtual networks
-To allow an app to access all resources in a resource group
