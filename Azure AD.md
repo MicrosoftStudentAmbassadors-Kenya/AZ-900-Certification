@@ -20,9 +20,9 @@ Azure Active Directory (Azure AD) is Microsoft's cloud-based IAM service that al
 In order to access resources in an organization, the user is first **authenticated** 
 before being **authorized**
 <h4> Who Uses Azure AD?</h4>
-###IT administrators can use it to control access to their app and cloud resources.<br>
-###App Developers can use it to add Single Sign-On to their app.<br>
-###Online Service Subscribers tenants using Microsoft 365 and Azure are already using Azure AD<br>
+**IT administrators** can use it to control access to their app and cloud resources.<br>
+**App Developers** can use it to add Single Sign-On to their app.<br>
+**Online Service Subscribers** tenants using Microsoft 365, Azure or are already using Azure AD<br>
  
 <h2>Services Provided By Azure AD</h2>
  <h3> Single-Sign On</h3>
